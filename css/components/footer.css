@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    color: #FFF;
+    
+}
+footer span {
+    font-family: 'Fira Code',sans-serif;
+   font-weight: 300;
+}

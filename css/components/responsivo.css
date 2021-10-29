@@ -1,0 +1,83 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+
+
+} /* Final do estilo para tablets */
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+	
+	a {
+		margin: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	a:nth-last-child(1){
+	margin: 0 auto;
+	}
+
+	img {
+		width: 200px;
+		height: 270px;
+	}
+
+	#box {
+		margin: 60px auto;
+		display: inline-block;
+		background-color: #3A4042;
+		box-shadow: 10px 10px 0 #7C5E99 ;
+		text-align: center;
+		padding: 42px 44px;
+		
+	}
+
+	#button {
+		
+		line-height: 60px;
+		height: 60px;
+		margin-top: 10px;
+		text-align: center;
+		
+	}
+
+	#buttons-before{
+		width: 350px;
+		text-align: center;
+		margin: auto;
+		margin-left: 30px;
+		display: inline-flex;
+		justify-content: space-evenly;
+		}
+
+	.container-projects {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+.img-project {
+margin: 20px;
+}
+
+
+/* SOBRE */
+
+.sobre-descricao {
+    font-size: 15px;
+    line-height: 30.36px;
+    width:100%;
+    padding-bottom:50px;
+    text-align: center;
+    margin: 0 20px;
+    color: #FFFFFF;
+}
+
+
+
+}
+
+/* Final do estilo para smartphone */
