@@ -1,9 +1,10 @@
 #box {
-    margin:116px 91px 0 ;
-    display: inline-block;
-    background-color: #3A4042;
-    box-shadow: 10px 10px 0 #7C5E99 ;
-    text-align: center;
-    padding: 42px 44px;
-    
+  flex-wrap: wrap;
+  position: relative;
+  margin: 11.6rem 9.1rem 2rem;
+  display: inline-block;
+  background-color: #3a4042;
+  box-shadow: 10px 10px 0 #7c5e99;
+  text-align: center;
+  padding: 4.2rem 4.4rem;
 }

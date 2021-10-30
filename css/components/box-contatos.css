@@ -1,28 +1,30 @@
 #contatos {
-    background-color: #3A4042;
+  background-color: #3a4042;
 }
 
 .box-contatos {
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding:0 40px;
-padding-bottom: 40px;
-font-family: 'Fira Code',sans-serif;
-font-weight: 300;
-color: #FFF;
-line-height: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+  padding-bottom: 4rem;
+  font-family: "Fira Code", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  color: #fff;
+  line-height: 3.9rem;
 }
+
 .box-contatos input {
-    margin-bottom: 20px;
-    height: 38px;
-    border: 5px solid #000000
+  margin-bottom: 2rem;
+  height: 3.8rem;
+  border: 5px solid #000000;
 }
 .box-contatos textarea {
-border: 5px solid #000000;
+  border: 5px solid #000000;
 }
 .box-contatos button {
-    margin-top: 40px;
-    height: 60px;
-    width: 100%;
+  margin-top: 4rem;
+  height: 6rem;
+  width: 100%;
 }

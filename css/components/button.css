@@ -1,21 +1,23 @@
 #button {
-    display: inline-block;
-    background-color: #F25A70;
-    line-height: 60px;
-    height: 60px;
-    padding: 0 20px;
-    box-shadow: 5px 5px 0px black;
-    margin-right: 0;
-    transition: transform 100ms linear;
+  display: inline-block;
+  background-color: #f25a70;
+  line-height: 6rem;
+  height: 6rem;
+  padding: 1.8rem;
+  box-shadow: 5px 5px 0px black;
+  transition: transform 100ms linear;
 }
 #button:hover {
-    transform:scale(1.08) ;
+  transform: scale(1.08);
 }
-#buttons-before{
-width: 657px;
-margin:38px 91px ;
-display: inline-flex;
-justify-content: space-evenly;
+#buttons-before {
+  margin: 3.8rem 9.1rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-    
+.btn-enviar {
+  font-size: 2rem;
+  text-align: center;
+}

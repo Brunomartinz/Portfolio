@@ -1,108 +1,39 @@
 /*Estilo para tablets*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
-
-
-
 } /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
-	
-	a {
-		margin: 20px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+  /* H E A D E R */
 
-	a:nth-last-child(1){
-	margin: 0 auto;
-	}
-
-	img {
-		width:270px;
-		height: 270px;
-	}
-
-	#box {
-		margin: 60px auto;
-		display: inline-block;
-		background-color: #3A4042;
-		box-shadow: 10px 10px 0 #7C5E99 ;
-		text-align: center;
-		padding: 42px 44px;
-		
-	}
-
-	#button {
-		
-		line-height: 60px;
-		height: 60px;
-		margin-top: 10px;
-		text-align: center;
-		
-	}
-
-	#buttons-before{
-		width: 350px;
-		text-align: center;
-		margin: auto;
-		margin-left: 30px;
-		display: inline-flex;
-		justify-content: space-evenly;
-		}
-
-	.container-projects {
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
-	}
-
-.img-project {
-margin: 20px;
-}
-
-
-/* SOBRE */
-
-.sobre-descricao {
-    font-size: 15px;
-    line-height: 30.36px;
-    width:100%;
-    padding-bottom:50px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-/* ITEM SKILLS */
-
-.skills {
-    background-color: #F25A70;
-    border-bottom: 6px solid #2c1a4a;
-}
-.box-skills {
-    display: grid;
-    width: 100%;
-	margin-left: -50px;
-}
-.item {
+  nav {
     display: flex;
-   margin:auto;
-   width: 50px;
-   
-}
-.item span{
-margin: 15px;
-font-family: 'Press Start 2P', sans-serif;
-font-weight: 400;
-color: #fff;
-}
-.item img {
-    height: 60px;
-    width: 70px;
+    flex-wrap: wrap;
+  }
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bruno-avatar {
+    width: 20rem;
+    height: 20rem;
+  }
+  /* BOX MID */
+
+  #box {
+    margin: 6rem;
+  }
+
+  #buttons-before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-}
+/* SKILLS */
+
+/* P R O J E T O S */
 
 /* Final do estilo para smartphone */

@@ -1,16 +1,17 @@
 #projects {
-    color: blanchedalmond;
-    background-color: #000000;
-    border-bottom: 6px solid #828282; ;
+  color: blanchedalmond;
+  background-color: #000000;
+  border-bottom: 6px solid #828282;
 }
 .container-projects {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 .img-project {
-  width: 280px;
-  height: 280px;
+  width: 28rem;
+  height: 28rem;
+  margin-bottom: 2rem;
 }
-
