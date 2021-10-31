@@ -3,7 +3,6 @@
   background-color: #f25a70;
   line-height: 6rem;
   height: 6rem;
-  padding: 1.8rem;
   box-shadow: 5px 5px 0px black;
   transition: transform 100ms linear;
 }
@@ -16,8 +15,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .btn-enviar {
-  font-size: 2rem;
-  text-align: center;
+  display: inline-block;
+  background-color: #f25a70;
+  font-size: 1.5rem;
+  line-height: 6rem;
+  font-weight: bold;
 }

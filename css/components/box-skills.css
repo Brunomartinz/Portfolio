@@ -4,7 +4,8 @@
 }
 .box-skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
 }
 .item {
   display: flex;
@@ -19,5 +20,5 @@
   color: #fff;
 }
 .item img {
-  width: 7rem;
+  width: 4rem;
 }

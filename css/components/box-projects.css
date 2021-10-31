@@ -2,6 +2,7 @@
   color: blanchedalmond;
   background-color: #000000;
   border-bottom: 6px solid #828282;
+  width: 100%;
 }
 .container-projects {
   display: flex;
